@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif
+        }
+        .gallery-container{
+           background: #caeded;
+        }
+        .gallery-item{
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            /*overflow-x: scroll; */
+        }
+        .gallery-item img{
+            width: 450px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Gallery</title>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="../week4/IMAGES/Cycling.avif" alt="Cycling">
+            <p>Cycling</p>
+        </div>
+        <div class="gallery-item">
+            <img src="../week4/IMAGES/sight seen.avif" alt="sight seen">
+            <p>Sight Seen</p>
+        </div>
+        <div class="gallery-item">
+            <img src="../week4/IMAGES/Travelling.avif" alt="Travelling">
+            <p>Travelling</p>
+        </div>
+        <div class="gallery-item">
+            <img src="../week4/IMAGES/Rock.avif" alt="Rock">
+            <p>Rock</p>
+        </div>
+    </div>
+</body>
+</html>
